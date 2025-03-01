@@ -17,7 +17,7 @@ int main()
     int value;
     cout<<"enter the value to insert : ";
     cin>>value;
-    for(int i=n-1; i>pos-1; i--)
+    for(int i=n-1; i>=pos-1; i--)
     {
         arr[i+1]=arr[i];
     }
